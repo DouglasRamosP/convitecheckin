@@ -1,12 +1,43 @@
-# React + Vite
+# 🎉 ConviteCheckin
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Gerencie convidados para eventos e faça check-in online em tempo real!  
+Projeto **fullstack** com React, Vite, Tailwind, Node.js, Express e MongoDB.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Funcionalidades
 
-## Expanding the ESLint configuration
+✅ Adicionar convidado com nome, telefone e acompanhante  
+✅ Listar convidados cadastrados  
+✅ Marcar presença (check-in)  
+✅ Remover convidado da lista  
+✅ Painel admin simples e intuitivo
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🚀 Tecnologias
+
+### 🔧 Backend
+- Node.js
+- Express
+- MongoDB (MongoDB Atlas)
+- Mongoose
+- dotenv
+- Nodemon
+
+### 💻 Frontend
+- React
+- Vite
+- Tailwind CSS
+- React Router DOM
+- Axios
+
+---
+
+## 🛠️ Como rodar localmente
+
+### 📦 Clone o repositório
+
+```bash
+git clone https://github.com/SEU-USUARIO/convitecheckin.git
+cd convitecheckin
