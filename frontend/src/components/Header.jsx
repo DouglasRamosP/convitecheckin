@@ -2,13 +2,13 @@ import { NavLink } from "react-router-dom";
 
 export default function Header() {
   return (
-    <header className="bg-gray-100 p-4 flex justify-between items-center">
-      <h1 className="text-xl font-bold">💍 Lista de Convidados Fechada</h1>
+    <header className="bg-mossGreen p-4 flex justify-between items-center">
+      <h1 className="text-4xl font-wedding text-mossVeryDark">💍 Lista de Convidados</h1>
       <nav className="flex gap-4">
         <NavLink
           to="/"
           className={({ isActive }) =>
-            isActive ? "text-blue-700 font-bold underline" : "text-blue-500 hover:underline"
+            isActive ? "text-mossVeryDark font-bold underline" : "text-mossVeryDark hover:underline"
           }
         >
           Home
@@ -16,7 +16,7 @@ export default function Header() {
         <NavLink
           to="/admin"
           className={({ isActive }) =>
-            isActive ? "text-blue-700 font-bold underline" : "text-blue-500 hover:underline"
+            isActive ? "text-mossVeryDark font-bold underline" : "text-mossVeryDark hover:underline"
           }
         >
           Admin
